@@ -9,47 +9,47 @@ This project analyzed which supervised machine learning model could accurately p
 - Precision Low Risk: 100%
 - Recall High Risk: 66% 
 - Recall Low Risk: 69% \
-*image here* example code:![districtsummarybefore](https://github.com/juliacho22/School_District_Analysis/blob/main/Resources/districtsummarybefore.PNG) 
+![naiverandomoversampling](https://github.com/juliacho22/Credit_Risk_Analysis/blob/main/resources/naiverandomoversampling.PNG) 
 
 ###SMOTE Oversampling
 - Accuracy Score: 68.2%
 - Precision High Risk: 1%
 - Precision Low Risk: 100%
 - Recall High Risk: 70% 
-- Recall Low Risk: 66%
-*image here* 
+- Recall Low Risk: 66%\
+![smoteoversampling](https://github.com/juliacho22/Credit_Risk_Analysis/blob/main/resources/smoteoversampling.PNG) 
 
 ###Cluster Centroid Undersampling
 - Accuracy Score: 52.2%
 - Precision High Risk: 0%
 - Precision Low Risk: 100%
 - Recall High Risk: 61% 
-- Recall Low Risk: 44%
-*image here* 
+- Recall Low Risk: 44%\
+![clustercentroidundersampling](https://github.com/juliacho22/Credit_Risk_Analysis/blob/main/resources/clustercentroidundersampling.PNG) 
 
 ###SMOTEENN Sampling
 - Accuracy Score: 68.1%
 - Precision High Risk: 1%
 - Precision Low Risk: 100%
 - Recall High Risk: 76% 
-- Recall Low Risk: 60%
-*image here* 
+- Recall Low Risk: 60%\
+![smoteennsampling](https://github.com/juliacho22/Credit_Risk_Analysis/blob/main/resources/smoteennsampling.PNG) 
 
 ###Balanced Random Forest Classifying
 - Accuracy Score: 64.8%
 - Precision High Risk: 56%
 - Precision Low Risk: 100%
 - Recall High Risk: 30% 
-- Recall Low Risk: 100%
-*image here* 
+- Recall Low Risk: 100%\
+![balancedrandomforestclassifying](https://github.com/juliacho22/Credit_Risk_Analysis/blob/main/resources/balancedrandomforestclassifying.PNG) 
 
 ###Easy Ensemble Classifying
 - Accuracy Score: 92.3%
 - Precision High Risk: 6%
 - Precision Low Risk: 100%
 - Recall High Risk: 91% 
-- Recall Low Risk: 94%
-*image here* 
+- Recall Low Risk: 94%\
+![easyensembleclassifying](https://github.com/juliacho22/Credit_Risk_Analysis/blob/main/resources/easyensembleclassifying.PNG) 
 
 ## Summary
 Since the goal of the analysis is to find the best model that can detect whether a loan is at high risk, the model with least amount of high risk loans is the best fit. The models that scored the highist risks were: 
